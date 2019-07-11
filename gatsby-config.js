@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Frannie and Patrick`,
     description: `Frannie and Patrick are getting married! We're so excited to have you join us in Brooklyn on September 14th at Pioneer Works in Brooklyn.`,
+    author: `@patrickjmorris`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
