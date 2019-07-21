@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
 import { Location } from '@reach/router';
+import { graphql, StaticQuery } from 'gatsby';
 import schemaGenerator from 'helpers/schemaGenerator';
+import PropTypes from 'prop-types';
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Head = ({
   siteTitle,
@@ -190,6 +190,7 @@ const HeadWithQuery = props => (
             siteDescription
             siteUrl
             themeColor
+            logo
             social {
               twitter
               fbAppId
