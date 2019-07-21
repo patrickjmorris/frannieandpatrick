@@ -1,4 +1,5 @@
 import Box from 'components/box';
+import Gallery from 'components/gallery';
 import Layout from 'components/layout';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
@@ -12,7 +13,7 @@ const Events = ({ data }) => (
         {data.eventsJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
     </Box>
-
+    <Gallery items={data.eventsJson.gallery} />
     <div style={{ height: '50vh' }} />
   </Layout>
 );
@@ -31,6 +32,16 @@ export const query = graphql`
         childMarkdownRemark {
           html
           rawMarkdownBody
+        }
+      }
+      gallery {
+        title
+        image {
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
         }
       }
     }

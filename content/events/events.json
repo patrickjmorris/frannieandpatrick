@@ -1,4 +1,10 @@
 {
   "title": "Events",
-  "content": "content.md"
+  "content": "content.md",
+  "gallery": [{
+    "title": "Pioneer Works",
+    "copy": "",
+    "image": "../images/gallery/pioneerworks.jpg",
+    "link": ""
+  }]
 }

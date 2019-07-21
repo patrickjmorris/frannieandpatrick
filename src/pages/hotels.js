@@ -9,7 +9,10 @@ import React from 'react';
 const Hotels = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      <Title as="h1" size="large">
+        {data.hotelsJson.title}
+      </Title>
+      <Title as="h2">
         {data.hotelsJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
     </Box>
@@ -40,7 +43,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
+            fluid(maxHeight: 400, quality: 90) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
