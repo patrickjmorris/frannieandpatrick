@@ -13,12 +13,12 @@ const Container = styled.header`
   padding: 4rem;
 
   a {
-    color: #757575;
     transition: color 0.2s ease;
     text-decoration: none;
+    font-weight: bold;
 
     &:hover {
-      color: inherit;
+      color: #33444e;
     }
   }
 `;

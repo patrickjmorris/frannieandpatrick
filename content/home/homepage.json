@@ -4,16 +4,19 @@
   "gallery": [{
     "title": "Events",
     "copy": "Find details about the wedding events.",
-    "image": "../images/gallery/pioneerworks.jpg"
+    "image": "../images/gallery/pioneerworks.jpg",
+    "link": "/events"
   },
   {
     "title": "Hotels",
     "copy": "Room blocks and hotel options",
-    "image": "../images/gallery/1hotel.jpg"
+    "image": "../images/gallery/1hotel.jpg",
+    "link": "/hotels"
   },
   {
     "title": "Activities",
     "copy": "Fill your day with some of our favorite activities",
-    "image": "../images/gallery/alexander-rotker-bkbridge.jpg"
+    "image": "../images/gallery/alexander-rotker-bkbridge.jpg",
+    "link": "/activities"
   }]
 }

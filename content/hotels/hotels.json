@@ -1,4 +1,22 @@
 {
   "title": "Hotels",
-  "content": "content.md"
+  "content": "content.md",
+  "gallery": [{
+    "title": "Marriott Brooklyn Bridge",
+    "copy": "Book by clicking here or call 888-436-3759 and reference the Morris/Hannan Room block. Rooms will be available in the block until August 16.",
+    "image": "../images/gallery/marriot.jpg",
+    "link": "https://book.passkey.com/event/49895089/owner/13490/home"
+  },
+  {
+    "title": "The Tillary",
+    "copy": "Book through this link or call 844-329-9537 and reference the Morris/Hannan Wedding Room Block.",
+    "image": "../images/gallery/tillary.png",
+    "link": "http://bookings.ihotelier.com/bookings.jsp?groupID=2516008&hotelID=102336"
+  },
+  {
+    "title": "1 Hotel Brooklyn Bidge",
+    "copy": "A limited number of rooms are available in a block. Contact Frannie & Patrick for more info",
+    "image": "../images/gallery/1hotel.jpg",
+    "link": ""
+  }]
 }

@@ -9,9 +9,9 @@ module.exports = {
     "Frannie and Patrick are getting married! We're so excited to have you join us in Brooklyn on September 14th at Pioneer Works in Brooklyn.",
   siteUrl: 'https://www.frannieandpatrick.com',
   themeColor: '#c9ae91',
-  backgroundColor: '#485f6d',
+  backgroundColor: '#efe3d7',
   pathPrefix: null,
-  logo: path.resolve(__dirname, 'src/images/icon.png'),
+  logo: path.resolve(__dirname, 'src/images/frannie_patrick.jpg'),
   social: {
     twitter: '',
     fbAppId: '',

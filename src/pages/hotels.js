@@ -1,20 +1,20 @@
 import Box from 'components/box';
-import Head from 'components/head';
+import Gallery from 'components/gallery';
 import Layout from 'components/layout';
+import Title from 'components/title';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
 const Hotels = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.hotelsJson.title} />
     <Box>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: data.hotelsJson.content.childMarkdownRemark.html,
-        }}
-      />
+      <Title as="h2" size="large">
+        {data.hotelsJson.content.childMarkdownRemark.rawMarkdownBody}
+      </Title>
     </Box>
+    <Gallery items={data.hotelsJson.gallery} />
+    <div style={{ height: '50vh' }} />
   </Layout>
 );
 
@@ -31,6 +31,19 @@ export const query = graphql`
       content {
         childMarkdownRemark {
           html
+          rawMarkdownBody
+        }
+      }
+      gallery {
+        title
+        copy
+        link
+        image {
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
         }
       }
     }

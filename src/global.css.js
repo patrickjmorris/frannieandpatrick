@@ -1,5 +1,5 @@
+import { accent, blue, pink, sand } from 'constants/theme';
 import { createGlobalStyle } from 'styled-components';
-import { accent } from 'constants/theme';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -37,8 +37,8 @@ export default createGlobalStyle`
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 1;
     font-size: 1.6rem;
-    color: #000;
-    background-color: #fff;
+    color: ${blue};
+    background-color: ${sand};
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -68,7 +68,7 @@ export default createGlobalStyle`
   }
 
   a {
-    color: ${accent};
+    color: ${pink};
   }
 
   pre {
@@ -90,5 +90,6 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+    color: ${blue};
   }
 `;

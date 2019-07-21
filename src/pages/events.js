@@ -1,12 +1,19 @@
-import Head from 'components/head';
+import Box from 'components/box';
 import Layout from 'components/layout';
+import Title from 'components/title';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
 const Events = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.eventsJson.title} />
+    <Box>
+      <Title as="h2" size="large">
+        {data.eventsJson.content.childMarkdownRemark.rawMarkdownBody}
+      </Title>
+    </Box>
+
+    <div style={{ height: '50vh' }} />
   </Layout>
 );
 
@@ -23,6 +30,7 @@ export const query = graphql`
       content {
         childMarkdownRemark {
           html
+          rawMarkdownBody
         }
       }
     }
