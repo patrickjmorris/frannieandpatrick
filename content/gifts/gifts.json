@@ -3,9 +3,9 @@
   "content": "content.md",
   "gallery": [{
     "title": "Memorial Sloan Kettering",
-    "copy": "Contribute to the Memorial Sloan Kettering Pediatric Cancer ",
+    "copy": "Contribute to the Memorial Sloan Kettering Pediatric Cancer Center",
     "image": "../images/gallery/MSK.png",
-    "link": "https://mskcc.convio.net/goto/frannieandpatrick"
+    "link": "http://mskcc.convio.net/goto/frannieandpatrick"
   },
   {
     "title": "Bideawee",
