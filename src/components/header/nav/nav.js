@@ -1,5 +1,6 @@
 import { blue } from 'constants/theme';
 import { Link } from 'gatsby';
+import MEDIA from 'helpers/mediaTemplates';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -8,6 +9,9 @@ const Container = styled.nav`
     display: flex;
     list-style: none;
     padding: 0;
+    ${MEDIA.PHONE`
+      margin-top 1.3rem;
+    `};
 
     li {
       text-transform: uppercase;
@@ -45,6 +49,11 @@ const Nav = () => (
       <li>
         <NavLink to="/hotels" activeClassName="current-page">
           Hotels
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/gifts" activeClassName="current-page">
+          Gifts
         </NavLink>
       </li>
     </ul>

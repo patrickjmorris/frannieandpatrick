@@ -1,6 +1,7 @@
 import Nav from 'components/header/nav';
 import Title from 'components/title';
 import { Link } from 'gatsby';
+import MEDIA from 'helpers/mediaTemplates';
 import PropTypes from 'prop-types';
 import React from 'react';
 import posed from 'react-pose';
@@ -11,6 +12,9 @@ const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 4rem;
+  ${MEDIA.PHONE`
+  flex-direction: column;
+  `};
 
   a {
     transition: color 0.2s ease;

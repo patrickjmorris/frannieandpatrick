@@ -1,0 +1,22 @@
+{
+  "title": "Gifts",
+  "content": "content.md",
+  "gallery": [{
+    "title": "Memorial Sloan Kettering",
+    "copy": "Contribute to the Memorial Sloan Kettering Pediatric Cancer ",
+    "image": "../images/gallery/MSK.png",
+    "link": "https://mskcc.convio.net/goto/frannieandpatrick"
+  },
+  {
+    "title": "Bideawee",
+    "copy": "Help us raise money for Bideawee",
+    "image": "../images/gallery/bideawee.jpg",
+    "link": "https://give.classy.org/frannieandpatrick"
+  },
+  {
+    "title": "Girls Who Code",
+    "copy": "Help us raise money for Girls Who Code",
+    "image": "../images/gallery/gwc.jpg",
+    "link": "https://www.classy.org/fundraiser/2197598"
+  }]
+}

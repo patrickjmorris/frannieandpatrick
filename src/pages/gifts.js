@@ -7,31 +7,31 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const Hotels = ({ data }) => (
+const Gifts = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.hotelsJson.title} />
+    <Head pageTitle={data.giftsJson.title} />
     <Box>
       <Title as="h1" size="large">
-        {data.hotelsJson.title}
+        {data.giftsJson.title}
       </Title>
       <Title as="h2">
-        {data.hotelsJson.content.childMarkdownRemark.rawMarkdownBody}
+        {data.giftsJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
     </Box>
-    <Gallery items={data.hotelsJson.gallery} />
+    <Gallery items={data.giftsJson.gallery} />
     <div style={{ height: '50vh' }} />
   </Layout>
 );
 
-Hotels.propTypes = {
+Gifts.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default Hotels;
+export default Gifts;
 
 export const query = graphql`
-  query HotelsQuery {
-    hotelsJson {
+  query GiftsQuery {
+    giftsJson {
       title
       content {
         childMarkdownRemark {
