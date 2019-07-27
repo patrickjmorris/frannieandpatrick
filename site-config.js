@@ -12,7 +12,7 @@ module.exports = {
   backgroundColor: '#efe3d7',
   pathPrefix: null,
   imageUrl: path.resolve(__dirname, 'src/images/frannie_patrick.jpg'),
-  logo: path.resolve(__dirname, 'src/images/frannie_patrick.jpg'),
+  logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
     twitter: '',
     fbAppId: '',
