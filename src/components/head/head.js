@@ -92,6 +92,8 @@ const Head = ({
       name="msapplication-square310x310"
     />
 
+    <meta name="googlebot" content="noindex, nofollow" />
+
     <link href="/manifest.json" rel="manifest" />
 
     <link
