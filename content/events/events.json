@@ -1,6 +1,7 @@
 {
   "title": "Events",
   "content": "content.md",
+  "events": "events.md",
   "gallery": [{
     "title": "Pioneer Works",
     "copy": "",

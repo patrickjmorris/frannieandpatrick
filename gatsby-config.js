@@ -33,7 +33,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Cormorant', 'Montserrat'],
+          families: ['Cormorant'],
         },
       },
     },
