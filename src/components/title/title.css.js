@@ -1,12 +1,12 @@
-import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
+import styled from 'styled-components';
 
 export const Text = styled.span`
   display: block;
   font-weight: ${({ size }) => () => {
     switch (size) {
       case 'large':
-        return '400';
+        return '500';
       default:
         return '500';
     }

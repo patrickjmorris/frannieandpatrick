@@ -8,12 +8,12 @@ import styled from 'styled-components';
 
 export const EventList = styled.div`
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: bold;
     padding: 1rem 0;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     padding: 1rem 0;
   }
@@ -22,7 +22,7 @@ export const EventList = styled.div`
 const Events = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      <Title as="h1" size="large">
         {data.eventsJson.title}
       </Title>
     </Box>
