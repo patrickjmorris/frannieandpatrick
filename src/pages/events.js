@@ -1,19 +1,42 @@
 import Box from 'components/box';
-import Gallery from 'components/gallery';
 import Layout from 'components/layout';
-import Title from 'components/title';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+import styled from 'styled-components';
+
+export const EventList = styled.div`
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    &:first-of-type {
+      font-size: 6rem;
+      padding: 1.2rem 0;
+    }
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+  }
+  p {
+    line-height: 1.8rem;
+  }
+  strong {
+    font-weight: bold;
+  }
+`;
 
 const Events = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
-        {data.eventsJson.content.childMarkdownRemark.rawMarkdownBody}
-      </Title>
+      <EventList
+        dangerouslySetInnerHTML={{
+          __html: data.eventsJson.events.childMarkdownRemark.html,
+        }}
+      />
     </Box>
-    <Gallery items={data.eventsJson.gallery} />
     <div style={{ height: '50vh' }} />
   </Layout>
 );
@@ -34,14 +57,10 @@ export const query = graphql`
           rawMarkdownBody
         }
       }
-      gallery {
-        title
-        image {
-          childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
+      events {
+        childMarkdownRemark {
+          html
+          rawMarkdownBody
         }
       }
     }

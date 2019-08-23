@@ -1,11 +1,13 @@
-import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
+import styled from 'styled-components';
 
 export const Text = styled.span`
   display: block;
   font-weight: ${({ size }) => () => {
     switch (size) {
       case 'large':
+        return '500';
+      case 'medium':
         return '400';
       default:
         return '500';
@@ -14,6 +16,8 @@ export const Text = styled.span`
   font-size: ${({ size }) => () => {
     switch (size) {
       case 'large':
+        return '6rem';
+      case 'medium':
         return '3.2rem';
       default:
         return '2rem';
@@ -25,7 +29,7 @@ export const Text = styled.span`
     font-size: ${({ size }) => () => {
       switch (size) {
         case 'large':
-          return '2.6rem';
+          return '4.6rem';
         default:
           return '2rem';
       }

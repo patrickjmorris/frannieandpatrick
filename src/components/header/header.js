@@ -25,6 +25,10 @@ const Container = styled.header`
       color: #33444e;
     }
   }
+
+  h1 {
+    font-weight: bold;
+  }
 `;
 
 const AnimatedContainer = posed.div({

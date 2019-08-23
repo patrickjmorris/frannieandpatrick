@@ -1,4 +1,5 @@
 {
   "title": "Activities",
-  "content": "content.md"
+  "content": "content.md",
+  "activities": "activities.md"
 }

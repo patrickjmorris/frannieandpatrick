@@ -92,4 +92,6 @@ export default createGlobalStyle`
     margin-bottom: 2rem;
     color: ${blue};
   }
+
+
 `;

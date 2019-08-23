@@ -1,5 +1,5 @@
 import Box from 'components/box';
-import Gallery from 'components/gallery';
+import HomeGallery from 'components/gallery/home_gallery';
 import Layout from 'components/layout';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
@@ -9,11 +9,11 @@ import React from 'react';
 const Index = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      <Title as="h2" size="medium">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
     </Box>
-    <Gallery items={data.homeJson.gallery} />
+    <HomeGallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
   </Layout>
 );
