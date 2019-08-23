@@ -1,3 +1,5 @@
+# Events
+
 # Friday
 ## Welcome Drinks 
 Join us at Putnam's in Clinton Hill to start off the wedding weekend. We will have the downstairs reserved and will have light appetizers and drinks. We listed some of our favorite nearby restaurants on the [Activities](/activities) page.
@@ -8,14 +10,14 @@ Join us at Putnam's in Clinton Hill to start off the wedding weekend. We will ha
 
 # Saturday
 ## Wedding
-The wedding will take place at Pioneer Works in Red Hook, Brooklyn. We ask guests to arrive at 5pm. The dress code is cocktail attire. Transportation will be provided from the Marriot and The Tillary. 
+The wedding will take place at Pioneer Works in Red Hook, Brooklyn. We ask guests to arrive at 5pm. The dress code is cocktail attire. Transportation will be provided from the Marriott and The Tillary. 
 
 **Time:** 5pm-12am
 
 **Address:** [Pioneer Works, 159 Pioneer St, Brooklyn, NY 11231](https://www.google.com/maps/place/Pioneer+Works/@40.6792081,-74.0121513,15z/data=!4m5!3m4!1s0x0:0xc48631e0fdda4d1c!8m2!3d40.6792081!4d-74.0121513)
 
 ## After Party
-Following the wedding, we'll head down the street to San Pedro Inn where will we continue the party with some Karaoke so make sure you have you're songs picked out!
+Following the wedding, we'll head down the street to San Pedro Inn where will we continue the party with some Karaoke so make sure you have your songs picked out!
 
 **Time:** 12am-4am
 

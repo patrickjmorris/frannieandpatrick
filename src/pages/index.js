@@ -9,7 +9,7 @@ import React from 'react';
 const Index = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      <Title as="h2">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
     </Box>

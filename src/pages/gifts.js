@@ -11,7 +11,7 @@ const Gifts = ({ data }) => (
   <Layout>
     <Head pageTitle={data.giftsJson.title} />
     <Box>
-      <Title as="h1" size="large">
+      <Title as="h2" size="large">
         {data.giftsJson.title}
       </Title>
       <Title as="h2">

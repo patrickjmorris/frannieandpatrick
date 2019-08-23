@@ -4,6 +4,7 @@
   "author": "Fabian Schultz <desk@fabianschultz.com>",
   "scripts": {
     "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "develop:mobile": "gatsby develop -H $HOSTNAME -p 8000",
     "serve": "gatsby serve",
     "ssr": "npm run build && npm run serve",
     "format": "prettier --config ./.prettierrc --write src/**/*.js",
