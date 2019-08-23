@@ -7,6 +7,8 @@ export const Text = styled.span`
     switch (size) {
       case 'large':
         return '500';
+      case 'medium':
+        return '400';
       default:
         return '500';
     }
@@ -15,6 +17,8 @@ export const Text = styled.span`
     switch (size) {
       case 'large':
         return '6rem';
+      case 'medium':
+        return '3.2rem';
       default:
         return '2rem';
     }
