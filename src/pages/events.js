@@ -26,6 +26,9 @@ export const EventList = styled.div`
   strong {
     font-weight: bold;
   }
+  ul {
+    margin-bottom: 2rem;
+  }
 `;
 
 const Events = ({ data }) => (

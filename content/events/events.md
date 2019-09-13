@@ -10,7 +10,16 @@ Join us at Putnam's in Clinton Hill to start off the wedding weekend. We will ha
 
 # Saturday
 ## Wedding
-The wedding will take place at Pioneer Works in Red Hook, Brooklyn. We ask guests to arrive at 5pm. The dress code is cocktail attire. Transportation will be provided from the Marriott and The Tillary. 
+The wedding will take place at Pioneer Works in Red Hook, Brooklyn. We ask guests to arrive at 5pm. The dress code is cocktail attire. 
+
+Transportation will be provided from The Marriott departing at 4:30 and the Tillary departing at 4:40. Should you have any issues please contact Steven (Loli Events) 917 504 0338. 
+
+If you are driving, street parking is available in the surrounding area.
+
+Return Shuttles will depart (as needed) and stop at the Tillary, Marriott & The 1 Hotel Brooklyn: 
+- 9:30pm
+- 10:30pm 
+- 12am
 
 **Time:** 5pm-12am
 
