@@ -8,10 +8,10 @@
     "link": "/events"
   },
   {
-    "title": "Hotels",
-    "copy": "Room blocks and hotel options",
-    "image": "../images/gallery/1hotel.jpg",
-    "link": "/hotels"
+    "title": "Gifts",
+    "copy": "In lieu of gifts, we ask you to donate to one of the charities below.",
+    "image": "../images/gallery/MSK.png",
+    "link": "/gifts"
   },
   {
     "title": "Activities",
